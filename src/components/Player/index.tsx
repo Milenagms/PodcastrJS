@@ -1,4 +1,4 @@
-
+import Image from 'next/image';
 import styles from './styles.module.scss';
 
 export function Player(){
@@ -22,19 +22,19 @@ export function Player(){
                 </div>
                 <div className={styles.buttons}>
                     <button type="button">
-                        <img src="/shuffle.svg" alt="Embaralhar"/>
+                        <img src="/shuffle.svg" alt="Embaralhar" /> 
                     </button>
                     <button type="button">
-                        <img src="/play-previous.svg" alt="Tocar anterior"/>
+                        <img src="/play-previous.svg" alt="Tocar anterior" /> 
                     </button>
                     <button type="button" className={styles.playButton}>
-                        <img src="/play.svg" alt="Tocar anterior"/>
+                    <img src="/play.svg" alt="pausa" />
                     </button>
                     <button type="button">
-                        <img src="/play-next.svg" alt="Tocar próxima"/>
+                        <img src="/play-next.svg" alt="Tocar próxima" />
                     </button>
                     <button type="button">
-                        <img src="/repeat.svg" alt="Repetir"/>
+                        <img src="/repeat.svg" alt="Repetir" />
                     </button>
                 </div>
             </footer>
