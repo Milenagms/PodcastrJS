@@ -11,7 +11,7 @@ import { api } from '../../services/api';
 import { convertDurationToTimeString } from '../../utils/convertDurationToTimeString';
 
 import styles from './episode.module.scss';
-// import { usePlayer } from '../../contexts/PlayerContext';
+import { usePlayer } from '../../contexts/PlayerContext';
 
 type Episode = {
   id: string;
